@@ -21,7 +21,7 @@ class Bspline{
   	//Calcule le vecteur de points sur la courbe par approximation
     std::vector<Point> calculerPointsBSpline();
     void afficherBSpline();
-    //~Bspline();
+    ~Bspline(){};
   private:
     std::vector<Point> _pc;
     std::vector<int> _vectNodal;

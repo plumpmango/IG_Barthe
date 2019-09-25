@@ -34,8 +34,9 @@ int main(){
     pointsControles.push_back(p0);
     Point p1{2,4,0};
     pointsControles.push_back(p1);
-    Point p2{4,0,0};
+    Point p2{5,0,0};
     pointsControles.push_back(p2);
+
 
     Bspline b(pointsControles, vectNodal, k);
     b.afficherBSpline();
